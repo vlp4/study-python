@@ -8,7 +8,7 @@ def input_number(prompt: str):
 
 
 def input_good(prompt: str):
-    print(prompt);
+    print(prompt)
     good = None
     name = input('Название (введите пустую строку, если больше нет товаров):')
     if len(name) > 0:
