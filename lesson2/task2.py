@@ -5,12 +5,11 @@ while True:
         break
     values.append(value)
 
-print()
-print(f'Исходный список:  {values}')
+print(f'\nИсходный список:  {values}')
 
-for i in range(len(values) // 2):
-    t = values[i * 2]
-    values[i * 2] = values[i * 2 + 1]
-    values[i * 2 + 1] = t
+for i in range(0, len(values) // 2 * 2, 2):
+    t = values[i]
+    values[i] = values[i + 1]
+    values[i + 1] = t
 
 print(f'Список-результат: {values}')

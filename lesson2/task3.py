@@ -16,5 +16,4 @@ while month < 1 or month > 12:
 season1 = season_list[month - 1]
 season2 = season_dict[month]
 
-print()
-print(f'Месяц {month}. Время года вычислено с list: {season1}; вычислено с dict: {season2}')
+print(f'\nМесяц {month}. Время года вычислено с list: {season1}; вычислено с dict: {season2}')
