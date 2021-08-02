@@ -8,8 +8,6 @@ while True:
 print(f'\nИсходный список:  {values}')
 
 for i in range(0, len(values) // 2 * 2, 2):
-    t = values[i]
-    values[i] = values[i + 1]
-    values[i + 1] = t
+    values[i], values[i + 1] = values[i + 1], values[i]
 
 print(f'Список-результат: {values}')
