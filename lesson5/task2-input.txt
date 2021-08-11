@@ -1,0 +1,10 @@
+Sample string
+a b c                d e
+one two three
+
+
+
+
+q
+w
+e
