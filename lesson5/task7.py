@@ -25,7 +25,7 @@ def make_result(firms):
             profitable_firms += 1
             total_profit += profit
 
-    return [result_dict, {'average_profit': total_profit / profitable_firms}]
+    return [result_dict, {'average_profit': total_profit / profitable_firms if profitable_firms > 0 else 0}]
 
 
 firms = []
