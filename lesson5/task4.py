@@ -7,7 +7,7 @@ def replace_quantitative(s: str) -> str:
         'Five': 'пять',
     }
     new_string = s
-    for replace_from,  replace_to in replace.items():
+    for replace_from, replace_to in replace.items():
         new_string = new_string.replace(replace_from, replace_to)
     return new_string
 
