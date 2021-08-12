@@ -6,7 +6,6 @@ file_name = 'data/task5-out.txt'
 with open(file_name, 'w') as out:
     out.write(' '.join([str(random.randint(0, 10)) for i in range(4)]))
 
-
 # Read numbers and calculate their sum:
 with open(file_name, 'r') as infile:
     total = 0
