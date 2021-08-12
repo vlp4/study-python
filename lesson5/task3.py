@@ -1,8 +1,9 @@
 people = []
-with open('task3-input.txt') as file:
+with open('data/task3-input.txt') as file:
     for line in file:
         parts = line.strip().split(' ')
-        people.append((parts[0], float(parts[1])))
+        if len(parts) > 1:
+            people.append((parts[0], float(parts[1])))
 
 surnames_lt_20k = [person[0] for person in people if person[1] < 20000]
 print('У сотрудников оклад менее 20к: ', surnames_lt_20k)

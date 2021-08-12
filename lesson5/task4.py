@@ -12,7 +12,7 @@ def replace_quantitative(s: str) -> str:
     return new_string
 
 
-with open('task4-input.txt') as file_in, open('task4-out.txt', 'w') as file_out:
+with open('data/task4-input.txt') as file_in, open('data/task4-out.txt', 'w') as file_out:
     for line in file_in:
         new_line = replace_quantitative(line)
         file_out.write(new_line)
