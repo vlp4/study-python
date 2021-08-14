@@ -20,5 +20,5 @@ class Position(Worker):
 ivanov = Position('Ivan', 'Ivanov', 'programmer', {'wage': 1000, 'bonus': 100})
 petrov = Position('Petr', 'Petrov', 'tester', {'wage': 800, 'bonus': 80})
 
-for person in [ivanov, petrov]:
+for person in (ivanov, petrov):
     print(f'Зарплата сотрудника {person.get_full_name()} ({person.position}):', person.get_total_income())
