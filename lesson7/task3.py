@@ -32,6 +32,7 @@ c1 = Cell(1)
 c2 = Cell(2)
 
 print(c1 + c2)
+print(c2 - c1)
 print(c1 * c2)
 print(c1 / c2)
 
