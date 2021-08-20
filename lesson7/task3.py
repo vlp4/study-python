@@ -28,8 +28,8 @@ class Cell:
         return Cell(self.__count / other.__count)
 
 
-c1 = Cell(1)
-c2 = Cell(2)
+c1 = Cell(2)
+c2 = Cell(3)
 
 print(c1 + c2)
 print(c2 - c1)
